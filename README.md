@@ -1,3 +1,7 @@
+# About this repo
+I recently bought a Radxa Dragon Wing Q6A and have been using claude code and hermes (with Deepseek V4 flash under the hood) to look at different strategies for optimising the NPU running LLMs. I got a long way with Llama.cpp, however I'm now swapping to LiteRT-LM to see if that goes better. TLDR the ingestion of tokens goes way faster with the NPU, but I couldn't get the TG to be any faster than with the CPU, so not really a win. The hardware is fairly limited, but I was hoping for at least some benefits over CPU on my 12gb board. Check out the guide I had the harness write here:
+https://github.com/pingud98/llamacpp_on_dragon_wing_q6a_guide/ 
+
 # llama.cpp
 
 ![llama](https://user-images.githubusercontent.com/1991296/230134379-7181e485-c521-4d23-a0d6-f7b3b61ba524.png)
